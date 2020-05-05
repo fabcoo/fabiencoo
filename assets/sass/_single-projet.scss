@@ -1,0 +1,110 @@
+.single-projet {
+  main {
+    background-size: cover;
+    background-position: top center;
+
+    header {
+      align-items: center;
+
+      a {
+        background-color: $noir;
+        padding: 10px 20px;
+        border-radius: 10px;
+        color: white;
+        font-family: $typoTitre;
+        font-weight: bold;
+        text-decoration: none;
+        width: 100%;
+        display: block;
+        text-align: center;
+      }
+    }
+
+    img {
+      border: 2px solid white;
+      margin-bottom: 15px;
+      vertical-align: top;
+    }
+
+    .contenuDetail {
+      .galerieDetail {
+        column-width: 300px;
+        column-gap: 15px;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .visiteSite {
+      color: white;
+      font-weight: bold;
+      font-family: $typoTitre;
+      font-size: 1.2rem;
+      text-decoration: none;
+    }
+
+    .post-navigation {
+      width: 100%;
+      margin-top: 15px;
+
+      .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+
+        .nav-previous,
+        .nav-next {
+          display: flex;
+          float: none;
+
+          a {
+            background-color: $noir;
+            padding: 10px 20px;
+            border-radius: 10px;
+            color: white;
+            font-family: $typoTitre;
+            font-weight: bold;
+            text-decoration: none;
+          }
+        }
+
+        .nav-next {
+          justify-content: flex-end;
+        }
+      }
+    }
+
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $noir;
+    }
+
+    ul {
+      margin-left: 0;
+    }
+  }
+
+  .modalFB {
+    color: $noir;
+
+    button {
+      border: none;
+      font-size: 1rem;
+      background-color: $violet;
+      padding: 10px 20px;
+      border-radius: 20px;
+      color: white;
+      font-family: $typoTitre;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    ul {
+      margin-left: 0;
+    }
+  }
+}

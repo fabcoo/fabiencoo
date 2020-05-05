@@ -1,0 +1,51 @@
+.home {
+  .bandeau {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -120px;
+    position: static;
+
+    p {
+      margin: 0;
+      text-align: center;
+      font-family: $typoTitre;
+      font-weight: 900;
+
+      &.site {
+        font-size: 2rem;
+        color: $noir;
+      }
+    }
+
+    h1.slogan {
+      line-height: normal;
+      text-align: center;
+      text-shadow: 0 0 5px $noir;
+      font-size: 3rem;
+    }
+  }
+
+  main {
+    a {
+      color: inherit !important;
+    }
+
+    i {
+      color: $noir;
+    }
+
+    h2,
+    h3 {
+      color: $noir;
+    }
+
+    .hello {
+      color: white;
+      font-size: 4rem;
+      margin-top: 0;
+    }
+  }
+}

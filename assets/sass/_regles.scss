@@ -1,0 +1,53 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: $violet;
+  color: white;
+  // padding: 0 100px;
+}
+
+#page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#content {
+  flex-grow: 1;
+  min-height: 75vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $typoTitre;
+  font-weight: 900;
+
+  span {
+    color: $noir;
+  }
+}
+
+.page {
+  margin: 0;
+
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 0 0 1rem 0;
+}
+
+main {
+  padding-top: 120px;
+  background-size: cover;
+}

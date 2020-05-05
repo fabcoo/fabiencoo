@@ -1,0 +1,43 @@
+.derniersProjets {
+  article {
+    min-height: 200px;
+    margin-bottom: 30px;
+
+    .projet {
+      background-size: cover;
+      background-position: center;
+      height: 100%;
+
+      a {
+        padding: 15px;
+        display: flex;
+        align-items: flex-end;
+        height: 100%;
+      }
+
+      h3 {
+        margin-bottom: 0;
+        color: white;
+      }
+
+      i {
+        color: white;
+      }
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.voirPortfolio {
+  .projet {
+    background-color: #252935;
+    font-size: 125%;
+
+    a {
+      align-items: center !important;
+    }
+  }
+}

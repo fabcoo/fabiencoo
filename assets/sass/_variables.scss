@@ -1,0 +1,43 @@
+// Ajout typos
+
+@font-face {
+  font-family: "Museo Sans Rounded";
+  src: url("../webfonts/MuseoSansRounded-300.woff2") format("woff2"),
+    url("../webfonts/MuseoSansRounded-300.woff") format("woff"),
+    url("../webfonts/MuseoSansRounded-300.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Museo Sans Rounded";
+  src: url("../webfonts/MuseoSansRounded-700.woff2") format("woff2"),
+    url("../webfonts/MuseoSansRounded-700.woff") format("woff"),
+    url("../webfonts/MuseoSansRounded-700.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Museo Sans Rounded";
+  src: url("../webfonts/MuseoSansRounded-900.woff2") format("woff2"),
+    url("../webfonts/MuseoSansRounded-900.woff") format("woff"),
+    url("../webfonts/MuseoSansRounded-900.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Déclaration variables
+
+$typoTitre: "Museo Sans Rounded", sans-serif;
+$violet: #8966dd;
+$noir: #252935;
+$transition: 0.25s linear all;
+
+// Classes utilitaires
+.text-center {
+  text-align: center;
+}

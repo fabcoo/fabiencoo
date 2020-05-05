@@ -1,0 +1,94 @@
+@media screen and (max-width: 769px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    line-height: 1.125;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .main-navigation {
+    width: 50px;
+
+    .toggle-formation,
+    .toggle-site {
+      width: 50px;
+    }
+
+    .menu-container {
+      &.menu-menu-formation-container {
+        padding-right: 0;
+      }
+
+      &.menu-menu-principal-container {
+        padding-left: 50px;
+      }
+
+      ul {
+        li {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .main-navigation {
+    .menu-container.menu-menu-formation-container {
+      ul {
+        li {
+          form {
+            #username-14,
+            #user_password-14,
+            #um-submit-btn {
+              margin-bottom: 15px !important;
+            }
+
+            #um_field_14_um_block_14_5 {
+              display: none;
+            }
+
+            .um-col-alt {
+              margin-top: 0;
+            }
+
+            ._um_row_1,
+            a.um-button {
+              margin-bottom: 15px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .home {
+    .custom-logo {
+      width: 115px;
+      display: block;
+      margin: auto;
+    }
+
+    .bandeau h1.slogan {
+      font-size: 2.5rem;
+    }
+  }
+
+  .site-footer .slogan h4 {
+    padding-top: 0;
+  }
+
+  .single-projet main .post-navigation .nav-previous,
+  .single-projet main .post-navigation .nav-next {
+    width: 100%;
+    margin: 15px;
+
+    a {
+      width: 100%;
+    }
+  }
+}

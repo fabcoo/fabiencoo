@@ -1,0 +1,124 @@
+.site-footer {
+  background-color: $noir;
+  padding-top: 120px;
+
+  img {
+    max-width: 160px;
+  }
+
+  .slogan {
+    h4 {
+      font-size: 3rem;
+      margin: 0;
+      padding-top: 100px;
+      padding-bottom: 20px;
+
+      span {
+        color: $violet;
+      }
+    }
+  }
+
+  .wpcf7-form {
+    input,
+    select,
+    textarea,
+    select {
+      width: 100%;
+      background-color: white;
+      color: rgba(37, 41, 53, 0.75);
+      padding: 10px 15px !important;
+      font-family: inherit;
+      border-radius: 10px;
+      font-size: 1rem;
+      margin-bottom: 30px;
+      border: none;
+    }
+
+    input[type="submit"] {
+      background-color: $violet;
+      color: white;
+      font-family: $typoTitre;
+      font-weight: 900;
+      border: none;
+    }
+
+    select {
+      height: 42px;
+    }
+
+    textarea {
+      height: 140px;
+    }
+  }
+
+  nav {
+    h5 {
+      font-size: 1rem;
+      color: $violet;
+    }
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      list-style-type: none;
+      margin-left: 0;
+
+      li {
+        padding: 0 20px 0 0;
+        color: white;
+        font-weight: 900;
+        font-family: $typoTitre;
+
+        &.menu-item-170 {
+          display: none;
+        }
+
+        a {
+          color: white;
+          text-decoration: none;
+
+          i {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .reseauxFooter {
+    a {
+      margin-left: 15px;
+      color: white;
+    }
+  }
+
+  .site-info {
+    p {
+      opacity: 0.5;
+      text-align: center;
+
+      a {
+        color: inherit;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .reverse {
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .site-footer {
+    padding-top: 20px;
+
+    .slogan {
+      h4 {
+        padding-top: 20px;
+      }
+    }
+  }
+}

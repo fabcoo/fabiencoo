@@ -1,0 +1,43 @@
+.page-id-165 {
+  .site-content {
+    i {
+      display: block;
+      text-align: center;
+      color: $noir;
+    }
+
+    hr {
+      height: 4px;
+      width: 50%;
+    }
+
+    h3 {
+      a {
+        color: white;
+      }
+    }
+
+    p[style="color:#252935"] {
+      font-weight: 600;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+
+      li {
+        color: $noir;
+        font-weight: 600;
+
+        &::before {
+          content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+          color: white; /* Change the color */
+          font-weight: bold; /* If you want it to be bold */
+          display: inline-block; /* Needed to add space between the bullet and the text */
+          width: 1em; /* Also needed for space (tweak if needed) */
+          margin-left: -1em; /* Also needed for space (tweak if needed) */
+        }
+      }
+    }
+  }
+}

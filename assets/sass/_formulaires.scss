@@ -1,0 +1,66 @@
+.um-page-register,
+.um-page-password-reset,
+.um-page-login,
+.um-page-account {
+  form {
+    .um-field {
+      padding-top: 0;
+    }
+
+    input[type="text"],
+    input[type="submit"],
+    input[type="password"],
+    a.um-button,
+    a.um-request-button {
+      border-radius: 10px !important;
+      padding: 25px !important;
+      border: none !important;
+      margin-bottom: 40px !important;
+    }
+
+    #um-submit-btn,
+    #um_account_submit_general,
+    #um_account_submit_privacy,
+    a.um-request-button,
+    #um_account_submit_password,
+    #um_account_submit_delete {
+      background-color: $noir;
+    }
+    .um-field-block,
+    .um-field-checkbox span,
+    .um-link-alt,
+    .um-field-label,
+    .um-account-main div.um-account-heading,
+    label,
+    p,
+    .um-account-name a,
+    a.um-link {
+      color: white !important;
+    }
+  }
+}
+
+.um-page-password-reset .um-field-block div[style="text-align:center;"] {
+  text-align: left !important;
+  margin-bottom: 15px;
+}
+
+main #um_field_14_um_block_14_4 {
+  display: none;
+}
+
+.um-account form input[type="text"] {
+  margin-bottom: 15px !important;
+}
+
+.um-account-main div.um-account-heading {
+  padding-bottom: 15px;
+}
+
+.um-account-side li {
+  background-color: white !important;
+
+  a.current span.um-account-icon {
+    color: $violet !important;
+  }
+}
