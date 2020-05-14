@@ -31,7 +31,7 @@
 							<img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/logo-footer.svg" alt="">
 						</div>
 						<div class="col-lg-12">
-							<p>Formateur Web depuis 8 ans, développeur web front-end & CMS à Lille depuis près de 10 ans, et spécialisé dans la constructions de sites WordPress sur-mesure. N'hésitez pas à me contacter pour vos différents besoins, je ferais le maximum pour vous répondre le plus rapidement possible.</p>
+							<p>Formateur Web depuis 8 ans, développeur web front-end & CMS à Lille depuis près de 10 ans, et spécialisé dans la construction de sites WordPress sur-mesure. N'hésitez pas à me contacter pour vos différents besoins, je ferais le maximum pour vous répondre le plus rapidement possible.</p>
 						</div>
 						<div class="col-lg-12">
 							<nav>
