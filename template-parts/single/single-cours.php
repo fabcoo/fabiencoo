@@ -55,7 +55,9 @@ if ( $user->roles[0] == 'um_formation-continue' && has_term('formation-continue'
           </a>
       	<?php endforeach; ?>
 			<?php endif; ?>
-			<a href="<?php the_field('sources') ?>">Télécharger les sources</a>
+			<?php if(get_field('sources')): ?>
+				<a href="<?php the_field('sources') ?>" class="sources">Télécharger les sources</a>
+			<?php endif; ?>
 		</div>
 	</div>
 </article><!-- #post-<?php the_ID(); ?> -->
