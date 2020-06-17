@@ -1,6 +1,6 @@
 var captchaLoaded = false;
 
-$(document).ready(function () {
+jQuery(document).ready(function ($) {
 
     //Load reCAPTCHA script when CF7 form field is focused
     $('.wpcf7-form input').on('focus', function () {
