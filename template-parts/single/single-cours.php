@@ -58,6 +58,9 @@ if ( $user->roles[0] == 'um_formation-continue' && has_term('formation-continue'
 			<?php if(get_field('sources')): ?>
 				<a href="<?php the_field('sources') ?>" class="sources">Télécharger les sources</a>
 			<?php endif; ?>
+			<?php if(get_field('correction')): ?>
+				<a href="<?php the_field('correction') ?>" class="correction">Télécharger la correction</a>
+			<?php endif; ?>
 		</div>
 	</div>
 </article><!-- #post-<?php the_ID(); ?> -->
