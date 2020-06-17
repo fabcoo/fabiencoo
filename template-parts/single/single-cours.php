@@ -61,6 +61,16 @@ if ( $user->roles[0] == 'um_formation-continue' && has_term('formation-continue'
 			<?php if(get_field('correction')): ?>
 				<a href="<?php the_field('correction') ?>" class="correction">Télécharger la correction</a>
 			<?php endif; ?>
+			<?php if(get_field('mot_de_passe_correction')): ?>
+				<!-- Affichage du mot de passe si la case est coché et que le rôle est "formation continue" -->
+				<?php if($user->roles[0] == 'um_formation-continue' && get_field('correction_formation_continue') == true ): ?>
+					<p><strong><?php the_field('mot_de_passe_correction') ?></strong></p>
+				<?php endif; ?> 
+				<!-- Affichage du mot de passe si la case est coché et que le rôle est "apprentissage" -->
+				<?php if($user->roles[0] == 'apprentissage' && get_field('correction_apprentissage') == true ): ?>
+					<p><strong><?php the_field('mot_de_passe_correction') ?></strong></p>
+				<?php endif; ?> 
+			<?php endif; ?>
 		</div>
 	</div>
 </article><!-- #post-<?php the_ID(); ?> -->
