@@ -56,7 +56,7 @@
 								<?php
 									if( have_rows('reseaux_sociaux', 'option') ):
 									    while ( have_rows('reseaux_sociaux', 'option') ) : the_row(); ?>
-									      <a href="<?php the_sub_field('lien_footer'); ?>" target="_blank"><?php the_sub_field('icone_footer'); ?></a>
+									      <a href="<?php the_sub_field('lien_footer'); ?>" target="_blank" rel="noreferrer" rel="noopener"><?php the_sub_field('icone_footer'); ?></a>
 								<?php endwhile;
 									else :
 									endif;

@@ -131,7 +131,7 @@
       }
 
       ul {
-        display: block;
+        display: flex;
 
         li {
           float: none;
@@ -150,6 +150,7 @@
                 color: white;
               }
             }
+
             #username-14,
             #user_password-14 {
               background-color: rgba(255, 255, 255, 0.1);
@@ -158,6 +159,7 @@
               padding: 25px !important;
               border: none !important;
             }
+
             #um-submit-btn {
               background-color: $violet !important;
             }
@@ -240,6 +242,7 @@
         right: 0;
       }
     }
+
     &#formation-navigation .fa-times {
       right: 50vw;
     }
@@ -256,11 +259,13 @@
 
   &.site-open {
     color: $noir;
+
     .menu-container {
       &.menu-menu-principal-container {
         left: 0;
       }
     }
+
     &#site-navigation .fa-times {
       left: 50vw;
     }
