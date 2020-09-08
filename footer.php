@@ -74,7 +74,7 @@
 						<?php bloginfo('description') ?>
 					</p>
 					<p>
-						Design by  Jérémy Leclerc - <a href="https://batfolio.fr" target="_blank">batfolio.fr</a>
+						Design by  Jérémy Leclerc - <a href="https://batfolio.fr" target="_blank" rel="noreferrer" rel="noopener">batfolio.fr</a>
 					</p>
 				</div>
 			</div>
