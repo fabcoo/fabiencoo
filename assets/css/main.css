@@ -272,6 +272,7 @@ pre {
   display: flex;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 .main-navigation .menu-container ul li a i {
   color: #8966dd;
