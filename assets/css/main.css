@@ -470,6 +470,14 @@ pre {
   margin-top: 0;
 }
 
+.um-profile.um .um-name a {
+  color: white;
+}
+
+.um-profile-note {
+  color: white;
+}
+
 .derniersProjets article {
   min-height: 200px;
   margin-bottom: 30px;
