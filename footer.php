@@ -71,10 +71,7 @@
 					<p>
 						&copy;<?php echo do_shortcode('[year]'); ?> -
 						<?php bloginfo('name') ?> -
-						<?php bloginfo('description') ?>
-					</p>
-					<p>
-						Design by  Jérémy Leclerc - <a href="https://batfolio.fr" target="_blank" rel="noreferrer" rel="noopener">batfolio.fr</a>
+						<?php bloginfo('description') ?> - Design by  Jérémy Leclerc - <a href="https://batfolio.fr" target="_blank" rel="noreferrer" rel="noopener">batfolio.fr</a>
 					</p>
 					<nav>
 						<?php
