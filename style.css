@@ -4,7 +4,7 @@ Theme URI: http://underscores.me/
 Author: Fabien Coo
 Author URI: https://www.fabiencoo.net
 Description: Thème personnalisé pour le site Fabiencoo.net
-Version: 1.1
+Version: 1.2
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: fabiencoo
@@ -535,8 +535,8 @@ ol {
 	list-style: decimal;
 }
 
-li > ol,
-li > ul {
+li>ol,
+li>ul {
 	margin-bottom: 0;
 	margin-left: 1.5em;
 }
@@ -711,8 +711,8 @@ a:hover {
 	top: 0;
 }
 
-.main-navigation ul ul li.focus > ul,
-.main-navigation ul ul li:hover > ul {
+.main-navigation ul ul li.focus>ul,
+.main-navigation ul ul li:hover>ul {
 	left: 100%;
 }
 
@@ -720,8 +720,8 @@ a:hover {
 	width: 200px;
 }
 
-.main-navigation ul li.focus > ul,
-.main-navigation ul li:hover > ul {
+.main-navigation ul li.focus>ul,
+.main-navigation ul li:hover>ul {
 	left: auto;
 }
 

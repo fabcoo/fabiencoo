@@ -103,6 +103,11 @@ pre {
   box-shadow: 0 0 5px 0 #252935;
 }
 
+.cc-grower {
+  z-index: 11;
+  position: relative;
+}
+
 .main-navigation {
   position: fixed;
   top: 0;
