@@ -1,13 +1,20 @@
-.um-profile.um {
-    .um-name a {
-        color: white !important;
+.um-page-user {
+
+    h1 {
+        display: none;
     }
-}
 
-.um-profile-note {
-    color: white !important;
+    .um-profile.um {
+        .um-name a {
+            color: white;
+        }
+    }
 
-    span {
-        color: white !important;
+    .um-profile-note {
+        color: white;
+
+        span {
+            color: white;
+        }
     }
 }

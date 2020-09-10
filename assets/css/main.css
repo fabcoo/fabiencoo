@@ -470,15 +470,17 @@ pre {
   margin-top: 0;
 }
 
-.um-profile.um .um-name a {
-  color: white !important;
+.um-page-user h1 {
+  display: none;
 }
-
-.um-profile-note {
-  color: white !important;
+.um-page-user .um-profile.um .um-name a {
+  color: white;
 }
-.um-profile-note span {
-  color: white !important;
+.um-page-user .um-profile-note {
+  color: white;
+}
+.um-page-user .um-profile-note span {
+  color: white;
 }
 
 .derniersProjets article {
