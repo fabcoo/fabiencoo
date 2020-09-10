@@ -379,6 +379,14 @@ pre {
 .site-footer nav ul li a i {
   display: none;
 }
+.site-footer nav ul#footer-menu {
+  justify-content: center;
+  opacity: 0.5;
+}
+.site-footer nav ul#footer-menu li {
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+}
 .site-footer .reseauxFooter a {
   margin-left: 15px;
   color: white;

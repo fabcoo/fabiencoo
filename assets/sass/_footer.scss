@@ -20,6 +20,7 @@
   }
 
   .wpcf7-form {
+
     input,
     select,
     textarea,
@@ -81,6 +82,16 @@
           i {
             display: none;
           }
+        }
+      }
+
+      &#footer-menu {
+        justify-content: center;
+        opacity: 0.5;
+
+        li {
+          font-weight: normal;
+          font-family: 'Open Sans', sans-serif;
         }
       }
     }
