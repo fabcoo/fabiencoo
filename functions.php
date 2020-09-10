@@ -124,7 +124,7 @@ add_action( 'widgets_init', 'fabiencoo_widgets_init' );
  	wp_enqueue_style( 'fabiencoo-style', get_stylesheet_uri() );
 	wp_enqueue_style( 'fabiencoo-aos', get_template_directory_uri() . '/assets/css/aos.css');
 	wp_enqueue_style( 'fabiencoo-bootstrap-grid', get_template_directory_uri() . '/assets/css/bootstrap-grid.min.css');
-	wp_enqueue_style( 'fabiencoo-google-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i&display=swap');
+	wp_enqueue_style( 'fabiencoo-google-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&display=swap');
 	wp_enqueue_style( 'fabiencoo-font-awesome', get_template_directory_uri() . '/assets/css/fontawesome.min.css');
 	if ( is_singular( array( 'projet', 'cours' ) ) ) {
 		wp_enqueue_style( 'fabiencoo-fancybox', get_template_directory_uri() . '/assets/css/jquery.fancybox.min.css');
