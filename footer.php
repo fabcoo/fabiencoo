@@ -76,6 +76,14 @@
 					<p>
 						Design by  Jérémy Leclerc - <a href="https://batfolio.fr" target="_blank" rel="noreferrer" rel="noopener">batfolio.fr</a>
 					</p>
+					<nav>
+						<?php
+							wp_nav_menu( array(
+								'theme_location' => 'footer-menu',
+								'menu_id'        => 'footer-menu',
+							) );
+						?>
+					</nav>
 				</div>
 			</div>
 		</div>

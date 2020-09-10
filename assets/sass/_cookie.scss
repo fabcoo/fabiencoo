@@ -1,0 +1,15 @@
+//Barre de cookies
+.cc-grower {
+    z-index: 11;
+    position: relative;
+}
+
+// Page de politique des cookies
+
+#cmplz-document {
+    max-width: none;
+
+    table tr:not(:first-of-type) {
+        color: $noir;
+    }
+}

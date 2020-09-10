@@ -103,11 +103,6 @@ pre {
   box-shadow: 0 0 5px 0 #252935;
 }
 
-.cc-grower {
-  z-index: 11;
-  position: relative;
-}
-
 .main-navigation {
   position: fixed;
   top: 0;
@@ -301,6 +296,18 @@ pre {
 }
 .main-navigation.site-open#site-navigation .fa-times {
   left: 50vw;
+}
+
+.cc-grower {
+  z-index: 11;
+  position: relative;
+}
+
+#cmplz-document {
+  max-width: none;
+}
+#cmplz-document table tr:not(:first-of-type) {
+  color: #252935;
 }
 
 .site-footer {
