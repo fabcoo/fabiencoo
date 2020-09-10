@@ -477,6 +477,9 @@ pre {
 .um-profile-note {
   color: white !important;
 }
+.um-profile-note span {
+  color: white !important;
+}
 
 .derniersProjets article {
   min-height: 200px;
