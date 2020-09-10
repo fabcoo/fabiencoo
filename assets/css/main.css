@@ -471,11 +471,11 @@ pre {
 }
 
 .um-profile.um .um-name a {
-  color: white;
+  color: white !important;
 }
 
 .um-profile-note {
-  color: white;
+  color: white !important;
 }
 
 .derniersProjets article {
