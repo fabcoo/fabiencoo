@@ -70,6 +70,12 @@ if ( $user->roles[0] == 'um_formation-continue' && has_term('formation-continue'
 					<a href="<?php the_field('correction') ?>" class="correction">Télécharger la correction</a>
 					<p class="mdp">Mot de passe :<br /><strong><?php the_field('mot_de_passe_correction') ?></strong></p>
 				<?php endif; ?> 
+				<?php if( get_field('correction') ): ?>
+					<?php if($user->roles[0] == 'administrator' ): ?>
+						<a href="<?php the_field('correction') ?>" class="correction">Télécharger la correction</a>
+						<p class="mdp">Mot de passe :<br /><strong><?php the_field('mot_de_passe_correction') ?></strong></p>
+					<?php endif; ?> 
+				<?php endif; ?> 
 			<?php endif; ?>
 		</div>
 	</div>
