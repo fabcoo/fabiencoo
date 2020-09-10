@@ -129,7 +129,7 @@ add_action( 'widgets_init', 'fabiencoo_widgets_init' );
 	if ( is_singular( array( 'projet', 'cours' ) ) ) {
 		wp_enqueue_style( 'fabiencoo-fancybox', get_template_directory_uri() . '/assets/css/jquery.fancybox.min.css');
 	}
-	wp_enqueue_style( 'fabiencoo-custom', get_template_directory_uri() . '/assets/css/main.css');
+	wp_enqueue_style( 'fabiencoo-custom', get_template_directory_uri() . '/assets/css/main.min.css');
 
 
 	//Ajout des fichiers JS
