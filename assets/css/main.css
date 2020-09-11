@@ -429,6 +429,10 @@ pre {
   color: inherit;
 }
 
+.extension p {
+  margin: 0.75rem 0;
+}
+
 .home .bandeau {
   min-height: 100vh;
   display: flex;
