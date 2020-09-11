@@ -27,7 +27,7 @@ if( !empty($block['align']) ) {
 
 <div id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?> row">
     <div class="col-md-2">
-        <p><strong><?php the_field('nom_extension') ?></strong></p>
+        <h3><?php the_field('nom_extension') ?></h3>
     </div>
     <div class="col-md-8">
         <p><?php the_field('description_extension') ?></p>
