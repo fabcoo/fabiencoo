@@ -56,7 +56,7 @@
 								<?php
 									if( have_rows('reseaux_sociaux', 'option') ):
 									    while ( have_rows('reseaux_sociaux', 'option') ) : the_row(); ?>
-									      <a href="<?php the_sub_field('lien_footer'); ?>" target="_blank" rel="noreferrer" rel="noopener"><?php the_sub_field('icone_footer'); ?></a>
+									      <a href="<?php the_sub_field('lien_footer'); ?>" target="_blank" rel="noreferrer noopener"><?php the_sub_field('icone_footer'); ?></a>
 								<?php endwhile;
 									else :
 									endif;
@@ -71,7 +71,7 @@
 					<p>
 						&copy;<?php echo do_shortcode('[year]'); ?> -
 						<?php bloginfo('name') ?> -
-						<?php bloginfo('description') ?> - Design by  Jérémy Leclerc - <a href="https://batfolio.fr" target="_blank" rel="noreferrer" rel="noopener">batfolio.fr</a>
+						<?php bloginfo('description') ?> - Design by  Jérémy Leclerc - <a href="https://batfolio.fr" target="_blank" rel="noreferrer noopener">batfolio.fr</a>
 					</p>
 					<nav>
 						<?php
