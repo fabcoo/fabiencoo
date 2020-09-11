@@ -429,7 +429,8 @@ pre {
   color: inherit;
 }
 
-.extension p {
+.extension p,
+.extension i {
   margin: 0.75rem 0;
 }
 
