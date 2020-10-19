@@ -351,6 +351,7 @@ pre {
   font-family: "Museo Sans Rounded", sans-serif;
   font-weight: 900;
   border: none;
+  margin-top: 30px;
 }
 .site-footer .wpcf7-form select {
   height: 42px;
