@@ -36,6 +36,13 @@
       border: none;
     }
 
+    .wpcf7-acceptance{
+      input[type="checkbox"]{
+        width: auto;
+        margin-bottom: 0;
+      }
+    }
+
     input[type="submit"] {
       background-color: $violet;
       color: white;

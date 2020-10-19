@@ -341,6 +341,10 @@ pre {
   margin-bottom: 30px;
   border: none;
 }
+.site-footer .wpcf7-form .wpcf7-acceptance input[type=checkbox] {
+  width: auto;
+  margin-bottom: 0;
+}
 .site-footer .wpcf7-form input[type=submit] {
   background-color: #8966dd;
   color: white;
@@ -429,6 +433,7 @@ pre {
   color: inherit;
 }
 
+.extension h3,
 .extension p,
 .extension i {
   margin: 0.75rem 0;
