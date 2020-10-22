@@ -9,7 +9,12 @@
 #cmplz-document {
     max-width: none;
 
-    table tr:not(:first-of-type) {
+    .cmplz-service-header {
+        h3{
+            color: $noir;
+        }
+    }
+    .cookies-per-purpose {
         color: $noir;
     }
 }
