@@ -307,7 +307,10 @@ pre {
 #cmplz-document {
   max-width: none;
 }
-#cmplz-document table tr:not(:first-of-type) {
+#cmplz-document .cmplz-service-header h3 {
+  color: #252935;
+}
+#cmplz-document .cookies-per-purpose {
   color: #252935;
 }
 
