@@ -835,8 +835,10 @@ main #um_field_14_um_block_14_4 {
   vertical-align: top;
 }
 .single-projet main .contenuDetail .galerieDetail {
-  column-width: 300px;
-  column-gap: 15px;
+  -moz-column-width: 300px;
+       column-width: 300px;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
 }
 .single-projet main .contenuDetail img {
   width: 100%;
@@ -900,6 +902,10 @@ main #um_field_14_um_block_14_4 {
 }
 .single-projet .modalFB ul {
   margin-left: 0;
+}
+
+.error404 #content {
+  background-image: url(https://www.fabiencoo.net/wp-content/themes/fabiencoo/assets/img/404BG.png);
 }
 
 @media screen and (max-width: 769px) {
@@ -971,4 +977,4 @@ h6 {
 .single-projet main .post-navigation .nav-next a {
     width: 100%;
   }
-}
+}/*# sourceMappingURL=main.css.map */
