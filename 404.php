@@ -16,7 +16,7 @@ get_header();
         <section class="error-404 not-found">
             <header class="page-header">
                 <h1 class="page-title">Erreur 404</h1>
-                <h2>Game Over</h2>
+                <h2>Désolé, votre page se trouve dans un autre château</h2>
             </header><!-- .page-header -->
 
             <div class="page-content">
