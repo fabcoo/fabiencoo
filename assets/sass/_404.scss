@@ -1,5 +1,11 @@
 .error404 {
   #content {
+    min-height: 100vh;
     background-image: url(https://www.fabiencoo.net/wp-content/themes/fabiencoo/assets/img/404BG.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 }

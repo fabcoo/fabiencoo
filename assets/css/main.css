@@ -906,6 +906,7 @@ main #um_field_14_um_block_14_4 {
 
 .error404 #content {
   background-image: url(https://www.fabiencoo.net/wp-content/themes/fabiencoo/assets/img/404BG.png);
+  background-size: cover;
 }
 
 @media screen and (max-width: 769px) {
