@@ -490,6 +490,7 @@ pre {
 .um-page-user .um-profile.um {
   background-color: rgba(137, 102, 221, 0.5);
   padding: 30px;
+  max-width: none;
 }
 .um-page-user .um-profile.um .um-name a {
   color: white;
