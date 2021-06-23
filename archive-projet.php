@@ -11,16 +11,17 @@ get_header();
 ?>
 
 <div id="primary" class="content-area">
-	<main id="main" class="site-main" style="background-image:linear-gradient(to bottom, rgba(137,102,221,0.3) 0%,rgba(137,102,221,1) 50%,rgba(137,102,221,1) 100%),url('<?php echo home_url() ?>/wp-content/uploads/2020/02/18697-scaled.jpg')">
-		<?php if ( have_posts() ) : ?>
-<div class="container">
+    <main id="main" class="site-main"
+        style="background-image:linear-gradient(to bottom, rgba(137,102,221,0.3) 0%,rgba(137,102,221,1) 50%,rgba(137,102,221,1) 100%),url('<?php echo home_url() ?>/wp-content/uploads/2020/02/18697-scaled.jpg')">
+        <?php if ( have_posts() ) : ?>
+        <div class="container">
 
-			<header class="page-header">
-				<h1>Mon portfoli<span>oo</span> </h1>
-				<?php the_field('description_portfolio','option') ?>
-			</header><!-- .page-header -->
-			<section class="derniersProjets row">
-			<?php
+            <header class="page-header">
+                <h1>Mon portfoli<span>oo</span> </h1>
+                <?php the_field('description_portfolio','option') ?>
+            </header>
+            <section class="derniersProjets row">
+                <?php
 			/* Start the Loop */
 			while ( have_posts() ) :
 				the_post();
@@ -42,11 +43,11 @@ get_header();
 
 		endif;
 		?>
-	</section>
-</div>
+            </section>
+        </div>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+    </main>
+</div>
 
 <?php
 get_footer();

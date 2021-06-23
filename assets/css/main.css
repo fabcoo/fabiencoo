@@ -487,8 +487,29 @@ pre {
 .um-page-user h1 {
   display: none;
 }
+.um-page-user .um-profile.um {
+  background-color: rgba(137, 102, 221, 0.5);
+  padding: 30px;
+}
 .um-page-user .um-profile.um .um-name a {
   color: white;
+}
+.um-page-user .um-profile.um .um .um-field-group-head,
+.um-page-user .um-profile.um .picker__box,
+.um-page-user .um-profile.um .picker__nav--prev:hover,
+.um-page-user .um-profile.um .picker__nav--next:hover,
+.um-page-user .um-profile.um .um .um-members-pagi span.current,
+.um-page-user .um-profile.um .um .um-members-pagi span.current:hover,
+.um-page-user .um-profile.um .um .um-profile-nav-item.active a,
+.um-page-user .um-profile.um .um .um-profile-nav-item.active a:hover,
+.um-page-user .um-profile.um .upload,
+.um-page-user .um-profile.um .um-modal-header,
+.um-page-user .um-profile.um .um-modal-btn,
+.um-page-user .um-profile.um .um-modal-btn.disabled,
+.um-page-user .um-profile.um .um-modal-btn.disabled:hover,
+.um-page-user .um-profile.um div.uimob800 .um-account-side li a.current,
+.um-page-user .um-profile.um div.uimob800 .um-account-side li a.current:hover {
+  background: #8966dd;
 }
 .um-page-user .um-profile-note {
   color: white;
