@@ -495,28 +495,29 @@ pre {
 .um-page-user .um-profile.um .um-name a {
   color: white;
 }
-.um-page-user .um-profile.um .um .um-field-group-head,
-.um-page-user .um-profile.um .picker__box,
-.um-page-user .um-profile.um .picker__nav--prev:hover,
-.um-page-user .um-profile.um .picker__nav--next:hover,
-.um-page-user .um-profile.um .um .um-members-pagi span.current,
-.um-page-user .um-profile.um .um .um-members-pagi span.current:hover,
-.um-page-user .um-profile.um .um .um-profile-nav-item.active a,
-.um-page-user .um-profile.um .um .um-profile-nav-item.active a:hover,
-.um-page-user .um-profile.um .upload,
-.um-page-user .um-profile.um .um-modal-header,
-.um-page-user .um-profile.um .um-modal-btn,
-.um-page-user .um-profile.um .um-modal-btn.disabled,
-.um-page-user .um-profile.um .um-modal-btn.disabled:hover,
-.um-page-user .um-profile.um div.uimob800 .um-account-side li a.current,
-.um-page-user .um-profile.um div.uimob800 .um-account-side li a.current:hover {
-  background: #8966dd;
-}
 .um-page-user .um-profile-note {
   color: white;
 }
 .um-page-user .um-profile-note span {
   color: white;
+}
+
+.um .um-field-group-head,
+.picker__box,
+.picker__nav--prev:hover,
+.picker__nav--next:hover,
+.um .um-members-pagi span.current,
+.um .um-members-pagi span.current:hover,
+.um .um-profile-nav-item.active a,
+.um .um-profile-nav-item.active a:hover,
+.upload,
+.um-modal-header,
+.um-modal-btn,
+.um-modal-btn.disabled,
+.um-modal-btn.disabled:hover,
+div.uimob800 .um-account-side li a.current,
+div.uimob800 .um-account-side li a.current:hover {
+  background: #8966dd;
 }
 
 .derniersProjets article {
