@@ -60,14 +60,14 @@ jQuery(document).ready(function ($) {
 	});
 });
 
-jQuery(window).load(function ($) {
+jQuery(window).load(function () {
 	AOS.refreshHard();
 
 	// Ajout d'un smooth scrolling avec arrêt du scroll à la barre de header
-	$("a[href*='#']").on("click", function () {
+	jQuery("a[href*='#']").on("click", function () {
 		var page = $(this).attr("href");
 		var speed = 250;
-		$("html, body").animate(
+		jQuery("html, body").animate(
 			{
 				scrollTop: $(page).offset().top - 111,
 			},
