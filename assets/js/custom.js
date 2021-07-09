@@ -58,21 +58,26 @@ jQuery(document).ready(function ($) {
 			}
 		});
 	});
+	// The function actually applying the offset
+	function offsetAnchor() {
+		if (location.hash.length !== 0) {
+			window.scrollTo(window.scrollX, window.scrollY - 111);
+		}
+	}
+
+	// Captures click events of all a elements with href starting with #
+	$(document).on("click", 'a[href^="#"]', function (event) {
+		// Click events are captured before hashchanges. Timeout
+		// causes offsetAnchor to be called after the page jump.
+		window.setTimeout(function () {
+			offsetAnchor();
+		}, 0);
+	});
+
+	// Set the offset when entering page with hash present in the url
+	window.setTimeout(offsetAnchor, 0);
 });
 
 jQuery(window).load(function () {
 	AOS.refreshHard();
-
-	// Ajout d'un smooth scrolling avec arrêt du scroll à la barre de header
-	jQuery("a[href*='#']").on("click", function () {
-		var page = $(this).attr("href");
-		var speed = 250;
-		jQuery("html, body").animate(
-			{
-				scrollTop: $(page).offset().top - 111,
-			},
-			speed
-		);
-		return false;
-	});
 });
