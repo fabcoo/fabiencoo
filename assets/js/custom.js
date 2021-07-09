@@ -58,6 +58,10 @@ jQuery(document).ready(function ($) {
 			}
 		});
 	});
+});
+
+jQuery(window).load(function ($) {
+	AOS.refreshHard();
 
 	// Ajout d'un smooth scrolling avec arrêt du scroll à la barre de header
 	$("a[href*='#']").on("click", function () {
@@ -71,8 +75,4 @@ jQuery(document).ready(function ($) {
 		);
 		return false;
 	});
-});
-
-jQuery(window).load(function ($) {
-	AOS.refreshHard();
 });
