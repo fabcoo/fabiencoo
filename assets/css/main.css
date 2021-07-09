@@ -447,6 +447,9 @@ pre {
   margin: 0.75rem 0;
 }
 
+.home * {
+  scroll-margin-top: 0;
+}
 .home .bandeau {
   min-height: 100vh;
   display: flex;
