@@ -20,6 +20,11 @@ if ( $user->roles[0] == 'um_formation-continue' && has_term('formation-continue'
     <h1>Contenu restreint</h1>
     <p>Le formateur n'a pas encore autorisé l'accès à ce cours pour le moment.</p>
 </header>
+<?php elseif ( $user->roles[0] == 'apprentissage_cdp' && has_term('apprentissage-cdp','restriction') ):?>
+<header class="container page-header">
+    <h1>Contenu restreint</h1>
+    <p>Le formateur n'a pas encore autorisé l'accès à ce cours pour le moment.</p>
+</header>
 <?php elseif ( $user->roles[0] == 'ms_cm_1' && has_term('ms-cm-1','restriction') ):?>
 <header class="container page-header">
     <h1>Contenu restreint</h1>
@@ -83,6 +88,10 @@ if ( $user->roles[0] == 'um_formation-continue' && has_term('formation-continue'
             <?php endif; ?>
             <!-- Affichage du mot de passe si la case est coché et que le rôle est "apprentissage" -->
             <?php if($user->roles[0] == 'apprentissage' && get_field('correction_apprentissage') == true ): ?>
+            <a href="<?php the_field('correction') ?>" class="correction">Télécharger la correction</a>
+            <p class="mdp">Mot de passe :<br /><strong><?php the_field('mot_de_passe_correction') ?></strong></p>
+            <?php endif; ?>
+            <?php if($user->roles[0] == 'apprentissage_cdp' && get_field('correction_apprentissage_cdp') == true ): ?>
             <a href="<?php the_field('correction') ?>" class="correction">Télécharger la correction</a>
             <p class="mdp">Mot de passe :<br /><strong><?php the_field('mot_de_passe_correction') ?></strong></p>
             <?php endif; ?>
