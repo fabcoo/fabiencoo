@@ -10,25 +10,27 @@
 get_header();
 ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" style="background-image:linear-gradient(to bottom, rgba(137,102,221,0.3) 0%,rgba(137,102,221,1) 50%,rgba(137,102,221,1) 100%),url('<?php echo home_url() ?>/wp-content/uploads/2020/02/18697-scaled.jpg')">
+<div id="primary" class="content-area">
+    <main id="main" class="site-main"
+        style="background-image:linear-gradient(to bottom, rgba(137,102,221,0.3) 0%,rgba(137,102,221,1) 50%,rgba(137,102,221,1) 100%),url('<?php echo home_url() ?>/wp-content/uploads/2020/02/18697-scaled.jpg')">
 
-		<?php if ( have_posts() ) : ?>
+        <?php if ( have_posts() ) : ?>
 
-			<header class="container page-header">
-				<?php if (is_user_logged_in() && taxonomy_exists( 'matiere' )) : ?>
-					<h1><?php echo single_term_title() ?></h1>
-				<?php else: ?>
-					<h1>Contenu restreint</h1>
-					<p>Les contenus de ce type ne sont pas accessible aux utilisateurs non enregistrés. Merci de vous <a href="<?php echo home_url() ?>/inscription">inscrire</a> préalablement</p>
-			<?php endif; ?>
-				<?php
+        <header class="container page-header">
+            <?php if (is_user_logged_in() && taxonomy_exists( 'matiere' )) : ?>
+            <h1><?php echo single_term_title() ?></h1>
+            <?php else: ?>
+            <h1>Contenu restreint</h1>
+            <p>Les contenus de ce type ne sont pas accessible aux utilisateurs non enregistrés. Merci de vous <a
+                    href="<?php echo home_url() ?>/inscription">inscrire</a> préalablement</p>
+            <?php endif; ?>
+            <?php
 				the_archive_description( '<div class="archive-description">', '</div>' );
 				?>
-			</header><!-- .page-header -->
-			<div class="container">
-				<div class="row">
-			<?php
+        </header><!-- .page-header -->
+        <div class="container">
+            <div class="row">
+                <?php
 			/* Start the Loop */
 			while ( have_posts() ) :
 				the_post();
@@ -48,26 +50,39 @@ get_header();
 				 elseif ($user->roles[0] == 'um_formation-continue') {
 					get_template_part( 'template-parts/archive/archive-fc', get_post_type() );
 				 }
+				 elseif ($user->roles[0] == 'apprentissage_cdp') {
+					get_template_part( 'template-parts/archive/archive-apprentissage-cdp', get_post_type() );
+				 }
+				 elseif ($user->roles[0] == 'ms_cm_1') {
+					get_template_part( 'template-parts/archive/archive-ms-cm-1', get_post_type() );
+				 }
+				 elseif ($user->roles[0] == 'ms_cm_2') {
+					get_template_part( 'template-parts/archive/archive-ms-cm-2', get_post_type() );
+				 }
+				 elseif ($user->roles[0] == 'imep') {
+					get_template_part( 'template-parts/archive/archive-imep', get_post_type() );
+				 }
+				 
 
 			endwhile;
 
 			//the_posts_navigation();
 			?>
 
-			<div class="col-md-12 navigation">
-				<?php wp_pagenavi(); ?>
-			</div>
+                <div class="col-md-12 navigation">
+                    <?php wp_pagenavi(); ?>
+                </div>
 
-		<?php else :
+                <?php else :
 
 			get_template_part( 'template-parts/content', 'none' );
 
 		endif;
 		?>
-				</div>
-			</div>
-		</main><!-- #main -->
-	</div><!-- #primary -->
+            </div>
+        </div>
+    </main><!-- #main -->
+</div><!-- #primary -->
 
 <?php
 get_footer();
