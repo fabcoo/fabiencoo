@@ -47,14 +47,11 @@ jQuery(document).ready(function ($) {
 
 	// Ajout d'une couleur de fond sur header au Scroll
 	$(function () {
-		var header = $(".site-header");
 		$(window).scroll(function () {
-			var scroll = $(window).scrollTop();
-
-			if (scroll >= 50) {
-				header.removeClass("header").addClass("bg");
+			if ($(window).scrollTop() >= 50) {
+				$(".site-header").removeClass("header").addClass("bg");
 			} else {
-				header.removeClass("bg").addClass("header");
+				$(".site-header").removeClass("bg").addClass("header");
 			}
 		});
 	});
